@@ -1,0 +1,29 @@
+This is an INFO message
+This is a WARNING message
+This is an ERROR message
+This is a CRITICAL message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-208-346
+INFO:werkzeug: * Detected change in 'g:\\Git-Work\\bookshelf-python\\Simple-Bookshelf-in-Python-Flask\\main.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-208-346
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2024 12:43:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2024 12:43:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2024 12:44:12] "[32mGET /add HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2024 12:44:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2024 12:44:13] "[32mGET /add HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2024 12:44:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'g:\\Git-Work\\bookshelf-python\\Simple-Bookshelf-in-Python-Flask\\main.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-208-346
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2024 12:46:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2024 12:46:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2024 12:46:46] "[35m[1mGET /add HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2024 12:46:47] "[35m[1mGET /add HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2024 12:46:47] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2024 12:46:47] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2024 12:46:47] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2024 12:46:47] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'g:\\Git-Work\\bookshelf-python\\Simple-Bookshelf-in-Python-Flask\\main.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-208-346
