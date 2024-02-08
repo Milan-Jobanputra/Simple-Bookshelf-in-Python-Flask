@@ -27,3 +27,311 @@ INFO:werkzeug:127.0.0.1 - - [07/Feb/2024 12:46:47] "[36mGET /add?__debugger__=y
 INFO:werkzeug: * Detected change in 'g:\\Git-Work\\bookshelf-python\\Simple-Bookshelf-in-Python-Flask\\main.py', reloading
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 112-208-346
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-208-346
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:43:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:43:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:43:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:43:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:43:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:43:28] "[35m[1mGET /add HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:43:28] "[35m[1mGET /add HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:43:28] "GET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:43:28] "GET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:43:29] "GET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'g:\\Git-Work\\bookshelf-python\\Simple-Bookshelf-in-Python-Flask\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-208-346
+INFO:werkzeug: * Detected change in 'g:\\Git-Work\\bookshelf-python\\Simple-Bookshelf-in-Python-Flask\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-208-346
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:45:32] "GET /add HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'g:\\Git-Work\\bookshelf-python\\Simple-Bookshelf-in-Python-Flask\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-208-346
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:57:22] "GET /add HTTP/1.1" 200 -
+ERROR:root:An error occurred: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "g:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\main.py", line 39, in add
+    "title": request.form["title"],
+  File "G:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\.venv\lib\site-packages\werkzeug\datastructures\structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:57:28] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:57:28] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:57:28] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:57:28] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:57:28] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ERROR:root:An error occurred: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "g:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\main.py", line 39, in add
+    "title": request.form["title"],
+  File "G:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\.venv\lib\site-packages\werkzeug\datastructures\structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:58:24] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:58:24] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:58:24] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:58:24] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:58:24] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ERROR:root:An error occurred: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "g:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\main.py", line 39, in add
+    "title": request.form["title"],
+  File "G:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\.venv\lib\site-packages\werkzeug\datastructures\structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:58:28] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:58:28] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:58:28] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:58:28] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:58:28] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'g:\\Git-Work\\bookshelf-python\\Simple-Bookshelf-in-Python-Flask\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-208-346
+ERROR:root:An error occurred: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "g:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\main.py", line 41, in add
+    "title": request.form["title"],
+  File "G:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\.venv\lib\site-packages\werkzeug\datastructures\structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:00:52] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:00:52] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:00:52] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:00:52] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:00:52] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ERROR:root:An error occurred: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "g:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\main.py", line 41, in add
+    "title": request.form["title"],
+  File "G:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\.venv\lib\site-packages\werkzeug\datastructures\structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:00:54] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:00:54] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:00:54] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:00:54] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:00:54] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ERROR:root:An error occurred: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "g:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\main.py", line 41, in add
+    "title": request.form["title"],
+  File "G:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\.venv\lib\site-packages\werkzeug\datastructures\structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:00:57] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:00:57] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:00:57] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:00:57] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:00:57] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'g:\\Git-Work\\bookshelf-python\\Simple-Bookshelf-in-Python-Flask\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-208-346
+ERROR:root:An error occurred: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "g:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\main.py", line 41, in add
+    "title": request.form["title"],
+  File "G:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\.venv\lib\site-packages\werkzeug\datastructures\structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:01:40] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+ERROR:root:An error occurred: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "g:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\main.py", line 41, in add
+    "title": request.form["title"],
+  File "G:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\.venv\lib\site-packages\werkzeug\datastructures\structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:01:50] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+ERROR:root:An error occurred: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "g:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\main.py", line 41, in add
+    "title": request.form["title"],
+  File "G:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\.venv\lib\site-packages\werkzeug\datastructures\structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:03:17] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+ERROR:root:An error occurred: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "g:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\main.py", line 41, in add
+    "title": request.form["title"],
+  File "G:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\.venv\lib\site-packages\werkzeug\datastructures\structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:03:20] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'g:\\Git-Work\\bookshelf-python\\Simple-Bookshelf-in-Python-Flask\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-208-346
+INFO:werkzeug: * Detected change in 'g:\\Git-Work\\bookshelf-python\\Simple-Bookshelf-in-Python-Flask\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-208-346
+ERROR:root:An error occurred: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "g:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\main.py", line 41, in add
+    "title": request.form["title"],
+  File "G:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\.venv\lib\site-packages\werkzeug\datastructures\structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:07:42] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'g:\\Git-Work\\bookshelf-python\\Simple-Bookshelf-in-Python-Flask\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-208-346
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-208-346
+ERROR:root:An error occurred: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "g:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\main.py", line 41, in add
+    "title": request.form["title"],
+  File "G:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\.venv\lib\site-packages\werkzeug\datastructures\structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:09:04] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:09:04] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:09:04] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:09:04] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:09:04] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'g:\\Git-Work\\bookshelf-python\\Simple-Bookshelf-in-Python-Flask\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-208-346
+ERROR:root:An error occurred: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "g:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\main.py", line 37, in add
+    "title": request.form["title"],
+  File "G:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\.venv\lib\site-packages\werkzeug\datastructures\structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:12:08] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:12:08] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:12:08] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:12:08] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:12:08] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ERROR:root:An error occurred: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "g:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\main.py", line 37, in add
+    "title": request.form["title"],
+  File "G:\Git-Work\bookshelf-python\Simple-Bookshelf-in-Python-Flask\.venv\lib\site-packages\werkzeug\datastructures\structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:12:13] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:12:13] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:12:13] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:12:13] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:12:13] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:12:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:12:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:12:23] "[35m[1mGET /add HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:12:23] "[35m[1mGET /add HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:12:23] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:12:23] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:12:23] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:13:56] "[35m[1mGET /add HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:13:56] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:13:56] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:13:56] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:13:56] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:13:58] "[35m[1mGET /add HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:13:58] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:13:58] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:13:58] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:13:58] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'g:\\Git-Work\\bookshelf-python\\Simple-Bookshelf-in-Python-Flask\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-208-346
+INFO:werkzeug: * Detected change in 'g:\\Git-Work\\bookshelf-python\\Simple-Bookshelf-in-Python-Flask\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-208-346
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:16:15] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:16:29] "[35m[1mGET /add HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:16:29] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:16:29] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:16:29] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:16:29] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:16:41] "[35m[1mGET /add HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:16:41] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:16:41] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:16:41] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:16:41] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:16:42] "[35m[1mGET /add HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:16:42] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:16:42] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:16:42] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:16:42] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:16:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:16:49] "[35m[1mGET /add HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:16:49] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:16:49] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:16:49] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'g:\\Git-Work\\bookshelf-python\\Simple-Bookshelf-in-Python-Flask\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-208-346
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:20:06] "GET /add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:20:11] "[32mPOST /add HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:20:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'g:\\Git-Work\\bookshelf-python\\Simple-Bookshelf-in-Python-Flask\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-208-346
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:20:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'g:\\Git-Work\\bookshelf-python\\Simple-Bookshelf-in-Python-Flask\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-208-346
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:23:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:23:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:23:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:23:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:23:14] "GET /add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:23:24] "[32mPOST /add HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:23:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:23:25] "GET /add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:23:30] "[32mPOST /add HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:23:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:24:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:24:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:24:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:24:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:24:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:24:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:24:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:24:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:24:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-208-346
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:25:01] "GET / HTTP/1.1" 200 -
