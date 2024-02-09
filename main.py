@@ -8,6 +8,28 @@ from sqlalchemy import Integer, String, Float
 
 app = Flask(__name__)
 
+# CREATE DATABASE
+class Base(DeclarativeBase):
+    pass
+
+app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///books.db"
+# Create the extension
+db = SQLAlchemy(model_class=Base)
+# initialise the app with the extension
+db.init_app(app)
+
+
+# CREATE TABLE
+class Book(db.Model):
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    title: Mapped[str] = mapped_column(String(250), unique=True, nullable=False)
+    author: Mapped[str] = mapped_column(String(250), nullable=False)
+    rating: Mapped[float] = mapped_column(Float, nullable=False)
+
+# Create table schema in the database. Requires application context.
+with app.app_context():
+    db.create_all()
+
 # Configure logging
 logging.basicConfig(filename='app.log', level=logging.ERROR)
 
