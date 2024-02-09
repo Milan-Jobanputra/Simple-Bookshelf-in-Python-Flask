@@ -1,4 +1,5 @@
 import logging
+import sqlite3
 from flask import Flask, render_template, request, redirect, url_for
 from flask import jsonify
 from flask_sqlalchemy import SQLAlchemy
@@ -8,7 +9,7 @@ from sqlalchemy import Integer, String, Float
 
 app = Flask(__name__)
 
-# CREATE DATABASE
+# CREATE DATABASEP
 class Base(DeclarativeBase):
     pass
 
@@ -33,24 +34,27 @@ with app.app_context():
 # Configure logging
 logging.basicConfig(filename='app.log', level=logging.ERROR)
 
-all_books = []
+#all_books = []
 
 
 @app.route('/')
 def home():
-     return render_template("index.html", books=all_books)
+     return render_template("index.html")
 
 
 @app.route("/add", methods=["GET", "POST"])
 def add():
     try: 
        if request.method == "POST":
-        new_book = {
-            "title": request.form["title"],
-            "author": request.form["author"],
-            "rating": request.form["rating"]
-        }
-        all_books.append(new_book)
+        new_book = Book(
+            
+            title= request.form["title"],
+            author= request.form["author"],
+            rating= request.form["rating"]
+        )
+        db.session.add(new_book)
+        db.session.commit()
+        #all_books.append(new_book)
         
          
         # e.g. in this case to the home page after the form has been submitted.
