@@ -515,3 +515,37 @@ INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:16:02] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:16:08] "GET /edit?id=3 HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:16:13] "[32mPOST /edit HTTP/1.1[0m" 302 -
 INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:16:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 726-249-099
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:26:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:26:56] "[32mGET /delete?id=2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:26:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:26:57] "[32mGET /delete?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:26:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:26:57] "[32mGET /delete?id=3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:26:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:26:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:26:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:26:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:27:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:27:00] "GET /add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:27:10] "[32mPOST /add HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:27:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:27:12] "GET /add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:27:22] "[32mPOST /add HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:27:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:27:24] "GET /add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:27:30] "[32mPOST /add HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:27:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:27:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:27:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:27:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:27:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:27:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:27:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:27:35] "[32mGET /delete?id=3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:27:35] "GET / HTTP/1.1" 200 -
