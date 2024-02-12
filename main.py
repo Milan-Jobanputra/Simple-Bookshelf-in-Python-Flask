@@ -39,7 +39,12 @@ logging.basicConfig(filename='app.log', level=logging.ERROR)
 
 @app.route('/')
 def home():
-     return render_template("index.html")
+     ##READ ALL RECORDS
+    # Construct a query to select from the database. Returns the rows in the database
+    result = db.session.execute(db.select(Book).order_by(Book.title))
+    # Use .scalars() to get the elements rather than entire rows from the database
+    all_books = result.scalars()
+    return render_template("index.html", books=all_books)
 
 
 @app.route("/add", methods=["GET", "POST"])
